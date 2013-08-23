@@ -3,5 +3,5 @@
 /// <reference path="mushroom-mixin.js" />
 
 WinJS.Namespace.define("VegetableGmos", {
-    CucumberGmo: WinJS.Class.mix(Plants.Vegetables.Cucumber, MushroomMixin)
+    CucumberGmo: WinJS.Class.mix(Plants.Vegetables.Cucumber, Mixins.MushroomMixin)
 });
