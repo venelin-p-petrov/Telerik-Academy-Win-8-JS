@@ -1,0 +1,81 @@
+﻿.homepage section[role=main] {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#navigation div {
+        display: inline-block;
+        width: 170px;
+        height: 135px;
+        margin-right: 5px;
+        border: 1px solid black;
+        box-shadow: #acacac 3px 3px 5px;
+        text-align: center;
+    }
+
+        #navigation div p {
+            padding-top: 90px;
+            font-size: 1.3em;
+        }
+
+    #navigation #nav-history {
+        background-color: #fff;
+        background-image: url(ms-appx:///images/history.jpg);
+        background-size: 170px 110px;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    #navigation #nav-geography {
+        background-color: #02ad00;
+        background-image: url(ms-appx:///images/geography.jpg);
+        background-size: 170px 110px;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    #navigation #nav-politics {
+        background-color: #e80000;
+        background-image: url(ms-appx:///images/politics.jpg);
+        background-size: 170px 110px;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    #navigation #nav-economy {
+        background-color: #fff;
+        background-image: url(ms-appx:///images/economy.jpg);
+        background-size: 170px 110px;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    #navigation #nav-demographics {
+        background-color: #02ad00;
+        background-image: url(ms-appx:///images/demographics.jpg);
+        background-size: 170px 110px;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    #navigation #nav-culture {
+        background-color: #e80000;
+        background-image: url(ms-appx:///images/culture.jpg);
+        background-size: 170px 110px;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+@media screen and (-ms-view-state: snapped) {
+    .homepage section[role=main] {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .homepage section[role=main] {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}

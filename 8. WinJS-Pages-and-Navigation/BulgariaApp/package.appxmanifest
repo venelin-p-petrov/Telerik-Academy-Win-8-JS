@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="2c049bf7-cd6e-4ff8-b2a0-106c33134a91" Version="1.0.0.0" Publisher="CN=HAXVY" />
+  <Properties>
+    <DisplayName>BulgariaApp</DisplayName>
+    <PublisherDisplayName>HAXVY</PublisherDisplayName>
+    <Logo>images\storemain.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="BulgariaApp" Logo="images\main.png" SmallLogo="images\smalllogo.png" Description="BulgariaApp" ForegroundText="light" BackgroundColor="#FFFFFF">
+        <DefaultTile ShowName="allLogos" WideLogo="images/main-180.png" />
+        <SplashScreen Image="images\main-splash.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

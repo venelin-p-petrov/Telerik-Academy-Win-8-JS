@@ -1,0 +1,21 @@
+﻿.demographics section[role=main] {
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-right: 20px;
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .demographics section[role=main] {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .demographics section[role=main] {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
