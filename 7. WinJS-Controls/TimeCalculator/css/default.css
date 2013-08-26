@@ -1,0 +1,5 @@
+﻿.date-label,
+.time-label {
+    display: inline-block;
+    width: 125px;
+}
