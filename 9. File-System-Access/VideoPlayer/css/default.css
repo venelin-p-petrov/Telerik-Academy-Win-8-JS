@@ -1,0 +1,74 @@
+﻿body {
+    padding: 20px;
+}
+
+#playlist {
+    float: left;
+    width: 320px;
+    height: 720px;
+    margin: 0 0 0 20px;
+    background-color: #373737;
+}
+
+    #playlist p {
+        font-size: 30px;
+        text-align: center;
+        margin: 0;
+        border-bottom: 3px solid #808080;
+    }
+
+#player-wrapper {
+    display: inline-block;
+    float: left;
+    width: 960px;
+    height: 720px;
+    background-color: #373737;
+}
+
+#video-list {
+    height: 660px;
+    padding: 0;
+    list-style-type: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+    #video-list li {
+        margin: 5px;
+        padding: 5px;
+        background-color: #535353;
+    }
+
+        #video-list li:hover {
+            background-color: #676767;
+        }
+
+        #video-list li.current-video {
+            background-color: #7d7d7d;
+        }
+
+        #video-list li.selected {
+            padding: 2px;
+            border: 3px solid #a0a0a0;
+        }
+
+    #video-list div {
+        display: inline-block;
+    }
+
+    #video-list .video-title {
+        font-weight: bold;
+        width: 250px;
+    }
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}

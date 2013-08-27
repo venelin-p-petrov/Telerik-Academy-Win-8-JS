@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>VideoPlayer</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- VideoPlayer references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <div id="player-wrapper">
+        <video id="player" width="960" height="720" controls="controls"></video>
+    </div>
+    <div id="playlist">
+        <p>Playlist</p>
+        <ul id="video-list"></ul>
+    </div>
+    <div data-win-control="WinJS.UI.AppBar">
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'add-video',
+            label:'Add Video',
+            icon:'add',
+            section:'global',
+            tooltip:'Add video'
+        }"></button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'remove-video',
+            label:'Remove Video',
+            icon:'remove',
+            section:'global',
+            tooltip:'Remove video'
+        }"></button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'save-playlist',
+            label:'Save Playlist',
+            icon:'save',
+            section:'selection',
+            tooltip:'Save playlist'
+        }"></button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+            id:'load-playlist',
+            label:'Load Playlist',
+            icon:'download',
+            section:'selection',
+            tooltip:'Load playlist'
+        }"></button>
+    </div>
+</body>
+</html>
